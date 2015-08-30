@@ -21,7 +21,11 @@ public static void main(String[] args) throws Exception {
 	
 	out.close();
 }
-//Minimum Interval Tree
+/*
+ * Interval tree to support the following operations:
+ *   Get the longest continuous string of S's or P's in a string consisting of only those 2 letters
+ *   Change every character in a substring to the opposite character.
+ */
 static class IT
 {
 	int[] prep, suffp, pres, suffs, maxp, maxs, a, b, prop;
